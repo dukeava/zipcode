@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular Expression Tester</title>
+    <style>
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Regular Expression Tester</h1>
+
+    <div>
+        <h2>Zip Code</h2>
+        <input type="text" id="zipCodeInput" placeholder="Enter Zip Code">
+        <button onclick="testZipCode()">Test Zip Code</button>
+        <div id="zipCodeResult" class="result"></div>
+    </div>
+
+    <div>
+        <h2>Credit Card Number</h2>
+        <input type="text" id="creditCardInput" placeholder="Enter Credit Card Number">
+        <button onclick="testCreditCard()">Test Credit Card</button>
+        <div id="creditCardResult" class="result"></div>
+    </div>
+
+    <div>
+        <h2>Phone Number</h2>
+        <input type="text" id="phoneNumberInput" placeholder="Enter Phone Number">
+        <button onclick="testPhoneNumber()">Test Phone Number</button>
+        <div id="phoneNumberResult" class="result"></div>
+    </div>
+
+    <script src="zipcode.js"></script>
+</body>
+</html>
